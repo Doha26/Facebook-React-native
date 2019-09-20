@@ -7,7 +7,7 @@ Design found here => https://dribbble.com/shots/4606408-Facebook-Redesign
 
 
 ## React-native implementation
-[App-demo](./src/screenshot/Facebook.png)
+![App-demo](./src/screenshot/Demo.png)
 
 
 ### Dependencies
@@ -24,7 +24,7 @@ Design found here => https://dribbble.com/shots/4606408-Facebook-Redesign
  ```sh
  $ git clone https://github.com/PavelFoujeu/FacebookUIDesign-React-native.git
  
- $ cd facebookUI/
+ $ cd facebookUI
  
  $ npm install
  
