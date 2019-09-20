@@ -30,5 +30,8 @@ Design found here => https://dribbble.com/shots/4606408-Facebook-Redesign
  
  $ react-native run-ios
  
- 
  ```
+
+## Author
+
+*	[Pavel Foujeu](mailto:foujeupavel@gmail.com)
