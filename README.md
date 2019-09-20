@@ -1,2 +1,3 @@
 # FacebookUIDesign-React-native
-common Beautiful Mobiles app designs  Made with React-native. Full source code. Design found on Dribble, uplabs, behance , etc ..
+Facebook UI Design made with React-native.
+Design found here => https://dribbble.com/shots/4606408-Facebook-Redesign
