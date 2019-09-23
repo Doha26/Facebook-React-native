@@ -9,7 +9,7 @@ const ProfileFriendItem: React.StatelessComponent = (props: any) => {
             <View>
                 <Avatar
                     rounded
-                    size={98}
+                    size={100}
                     source={props.image}>
                 </Avatar>
                 <Text style={styles.friendName}>{props.name}</Text>

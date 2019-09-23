@@ -6,8 +6,11 @@ Design found here => https://dribbble.com/shots/4606408-Facebook-Redesign
 ![App-design](./src/screenshot/Facebook.png)
 
 
-## React-native implementation
-![App-demo](./src/screenshot/Demo.png)
+##  implementation (Home)
+![App-demo](./src/screenshot/Demo1.png)
+
+##  implementation (Profile)
+![App-demo](./src/screenshot/Demo2.png)
 
 
 ### Dependencies

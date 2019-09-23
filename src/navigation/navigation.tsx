@@ -6,7 +6,7 @@ import Profile from "../screens/Profile";
 
 
 const appStack = createStackNavigator({
-    // @ts-ignore
+    
     Home: {
         screen: Home,
         navigationOptions: () => ({
@@ -30,7 +30,7 @@ const appStack = createStackNavigator({
     },
 
 },{
-    initialRouteName:'Home' // To remove qfter design completed
+    initialRouteName:'Splash' 
 });
 
 

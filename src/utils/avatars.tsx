@@ -13,19 +13,19 @@ const avatars: Array<any> = [
     },
     {
         id: 4,
-        avatar: require('../assets/images/ic4.png')
+        src: require('../assets/images/ic4.png')
     },
     {
         id: 5,
-        avatar: require('../assets/images/ic5.png')
+        src: require('../assets/images/ic5.png')
     },
     {
         id: 6,
-        avatar: require('../assets/images/ic6.png')
+        src: require('../assets/images/ic6.png')
     },
     {
         id: 7,
-        avatar: require('../assets/images/ic7.png')
+        src: require('../assets/images/ic7.png')
     },
 ];
 export default avatars;

@@ -78,7 +78,7 @@ class PostItem extends React.Component<IPostItemProps> {
                             numberOfLines={5}
                             renderViewMore={this.renderViewMore}
                             renderViewLess={this.renderViewLess}
-                            textStyle={{textAlign: 'justify', marginRight: 20}}>
+                            textStyle={{textAlign: 'justify', marginRight: 20 , lineHeight:25 , fontSize:15}}>
                             <Text>
                                 {text}
                             </Text>
