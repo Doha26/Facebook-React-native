@@ -44,7 +44,7 @@ export default class Intro extends React.Component<IProps> {
                     <SvgUri
                         width="100%"
                         height="100%"
-                        source={require('../../assets/icons/logo.svg')}
+                        source={require('../../assets/svg/logo.svg')}
                     />
                 </View>
             </View>

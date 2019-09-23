@@ -9,10 +9,10 @@ import SvgUri from "react-native-svg-uri";
 const RoundedImageCamera: React.StatelessComponent = () => {
 
     return (
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => alert('You are trying to open Camera')}>
             <View style={styles.container}>
                 <View style={styles.child}>
-                    <SvgUri style={styles.buttonImage} source={require('../../assets/icons/camera.svg')}/>
+                    <SvgUri style={styles.buttonImage} source={require('../../assets/svg/camera.svg')}/>
                 </View>
             </View>
         </TouchableOpacity>

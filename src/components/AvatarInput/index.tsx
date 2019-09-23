@@ -2,34 +2,39 @@ import React, {Component} from 'react';
 import {
     View,
     StyleSheet,
-    TextInput
+    TextInput, TouchableOpacity,
 } from "react-native";
-import {Avatar, Input} from "react-native-elements";
+import {Avatar} from "react-native-elements";
 import {colors} from "../../utils";
 
-const AvatarInput: React.StatelessComponent = () => {
-    return (
-        <View style={styles.mainContainer}>
-            <View style={styles.inputZone}>
-                <Avatar
-                    containerStyle={styles.avatarStyle}
-                    rounded
-                    source={require('../../assets/images/ic8.png')}
-                />
-                <TextInput underlineColorAndroid='transparent' style={styles.inputStyle}
-                    placeholder='Write something here...' placeholderTextColor={colors.light_gray}
-                />
+export default class AvatarInput extends Component {
+
+    render(){
+        return (
+            <View style={styles.mainContainer}>
+                <View style={styles.inputZone}>
+                    <TouchableOpacity style={{justifyContent:'center'}}>
+                        <Avatar
+                            containerStyle={styles.avatarStyle}
+                            rounded
+                            source={require('../../assets/images/ic8.png')}
+                        />
+                    </TouchableOpacity>
+                    <TextInput underlineColorAndroid='transparent' style={styles.inputStyle}
+                               placeholder='Write something here...' placeholderTextColor={colors.light_gray}
+                    />
+                </View>
             </View>
-        </View>
-    );
+        );
+    }
 };
 
 const styles = StyleSheet.create({
     mainContainer:{
         flex:1,
         flexDirection:'row',
-        height: 72,
-        borderRadius: 36,
+        height: 68,
+        borderRadius: 34,
         borderColor: colors.exlight_gray,
         borderWidth: 2
     },
@@ -39,9 +44,10 @@ const styles = StyleSheet.create({
         padding:20
     },
     avatarStyle:{
-        width:37,
-        height:37,
-        alignSelf:'center'
+        width:36,
+        height:36,
+        alignSelf:'center',
+        borderRadius: 18
     },
     inputStyle:{
         fontSize:17,
@@ -50,4 +56,3 @@ const styles = StyleSheet.create({
     }
 });
 
-export default AvatarInput;

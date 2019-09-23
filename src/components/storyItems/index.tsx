@@ -5,9 +5,8 @@ import StoryItem from "./storyItem";
 import {colors} from "../../utils";
 
 
-const storyItems: React.StatelessComponent = () => {
+const storyItems: React.StatelessComponent = (props:any) => {
 
-    console.log(avatars);
     return (
         <ScrollView
             style={styles.contactContainerStyle}
@@ -16,7 +15,7 @@ const storyItems: React.StatelessComponent = () => {
             <View style={{flex:1,flexDirection:'row'}}>
                 {
                     avatars.map(avatar => (
-                        <StoryItem key={avatar.id} image={avatar.src}/>
+                        <StoryItem key={avatar.id} image={avatar.src} clicked={props.onClicked}/>
                     ))
                 }
             </View>

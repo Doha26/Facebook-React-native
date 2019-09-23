@@ -2,6 +2,7 @@ import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import Home from "../screens/Home";
 import Intro from "../screens/Intro";
+import Profile from "../screens/Profile";
 
 
 const appStack = createStackNavigator({
@@ -13,8 +14,15 @@ const appStack = createStackNavigator({
             headerBackTitle: null
         })
     },
-    splash: {
+    Splash: {
         screen: Intro,
+        navigationOptions: () => ({
+            header: null,
+            headerBackTitle: null
+        })
+    },
+    Profile: {
+        screen: Profile,
         navigationOptions: () => ({
             header: null,
             headerBackTitle: null
@@ -31,6 +39,7 @@ export default createAppContainer(createSwitchNavigator(
     {
         App: appStack,
         Intro: Intro,
+        Profile: Profile,
     },
     {
         initialRouteName: 'App'

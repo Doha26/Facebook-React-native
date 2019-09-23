@@ -6,8 +6,8 @@ import {colors} from "../../../utils";
 const StoryItem: React.StatelessComponent = (props:any) => {
 
     return (
-        <TouchableOpacity>
-            <View style={styles.container}>
+        <TouchableOpacity onPress={props.clicked}>
+            <View style={styles.container} >
                 <Avatar rounded size="large"
                         containerStyle={styles.avatar}
                         source={props.image}

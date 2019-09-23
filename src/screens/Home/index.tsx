@@ -17,6 +17,8 @@ import StoryItems from "../../components/storyItems";
 import AvatarInput from "../../components/AvatarInput";
 import RoundedActionButton from "../../components/RoundedActionButton";
 import PostItem from "../../components/PostItem";
+import avatars from "../../utils/avatars";
+import posts from "../../utils/posts";
 
 export default class Home extends React.Component {
 
@@ -42,6 +44,10 @@ export default class Home extends React.Component {
         this.wait(2000).then(() => {
             this.setState({setRefreshing: false});
         });
+    };
+
+    handleClick = () => {
+        this.props.navigation.navigate('Profile')
     };
 
     render() {
@@ -75,7 +81,7 @@ export default class Home extends React.Component {
                                             justifyContent: 'center',
                                             alignItems: 'flex-end'
                                         }}>
-                                            <SvgUri source={require("../../assets/icons/play.svg")}/>
+                                            <SvgUri source={require("../../assets/svg/play.svg")}/>
                                             <Text style={styles.playAllText}>PLAY ALL</Text>
                                         </View>
                                     </TouchableOpacity>
@@ -83,8 +89,8 @@ export default class Home extends React.Component {
 
                             </View>
                             <View style={Object.assign({}, styles.marginContainer, styles.storiesContainer)}>
-                                <CameraButton src={require("../../assets/icons/play.svg")}/>
-                                <StoryItems/>
+                                <CameraButton src={require("../../assets/svg/play.svg")}/>
+                                <StoryItems onClicked={ ()=>this.handleClick()}/>
                             </View>
                             <View style={Object.assign({}, styles.marginContainer, {flex: 1, flexDirection: "row"})}>
                                 <AvatarInput/>
@@ -94,39 +100,25 @@ export default class Home extends React.Component {
                                 flexDirection: "row",
                                 justifyContent: "space-between"
                             })}>
-                                <RoundedActionButton icon={require('../../assets/icons/picture.svg')} text="Upload"
+                                <RoundedActionButton height={44} radius={22} flex={true}
+                                                     icon={require('../../assets/svg/picture.svg')} text="Upload"
                                                      bgColor={colors.filterBlue}/>
-                                <RoundedActionButton icon={require('../../assets/icons/live.svg')} text="Go live"
+                                <RoundedActionButton height={44} radius={22} flex={true}
+                                                     icon={require('../../assets/svg/live.svg')} text="Go live"
                                                      bgColor={colors.red}/>
-                                <RoundedActionButton icon={require('../../assets/icons/location.svg')} text="Check"
+                                <RoundedActionButton height={44} radius={22} flex={true}
+                                                     icon={require('../../assets/svg/location.svg')} text="Check"
                                                      bgColor={colors.green}/>
                             </View>
                         </View>
-                        <PostItem key="1" likeCount="12 Likes" commentCount="14 Comments" shareCount="33 Shares"
-                                  author="Pavel Jismer" time="13h ago" avatar={require('../../assets/images/ic1.png')}
-                                  image={require('../../assets/images/post1.png')}/>
-                        <PostItem key="2" likeCount="55 Likes" commentCount="240 Comments" shareCount="300 Shares"
-                                  author="Beth Curningan" time="1h ago" avatar={require('../../assets/images/ic3.png')}
-                                  image={require('../../assets/images/post2.png')}/>
-                        <PostItem key="3" likeCount="9 Likes" commentCount="1234 Comments" shareCount="22 Shares"
-                                  author="Orphlan Blue" time="6 Min" avatar={require('../../assets/images/ic2.png')}
-                                  image={require('../../assets/images/post3.png')}/>
-                        <PostItem key="4" likeCount="59 Likes" commentCount="98 Comments" shareCount="40 Shares"
-                                  author="Zed Orphis" time="24 Sec" avatar={require('../../assets/images/ic5.png')}
-                                  image={require('../../assets/images/post4.png')}/>
-                        <PostItem key="5" likeCount="345 Likes" commentCount="65 Comments" shareCount="1000 Shares"
-                                  author="Tedd Credinger" time="1 Year ago"
-                                  avatar={require('../../assets/images/ic4.png')}
-                                  image={require('../../assets/images/post5.png')}/>
-                        <PostItem key="6" likeCount="88 Likes" commentCount="86 Comments" shareCount="12 Shares"
-                                  author="Orelsan Nixter" time="1 Week" avatar={require('../../assets/images/ic6.png')}
-                                  image={require('../../assets/images/post6.png')}/>
-                        <PostItem key="7" likeCount="54 Likes" commentCount="234 Comments" shareCount="98 Shares"
-                                  author="Ginger Marie" time="2h ago" avatar={require('../../assets/images/ic7.png')}
-                                  image={require('../../assets/images/post7.png')}/>
-                        <PostItem key="8" likeCount="98 Likes" commentCount="654 Comments" shareCount="43 Shares"
-                                  author="Moxtor Jixton" time="1h ago" avatar={require('../../assets/images/ic8.png')}
-                                  image={require('../../assets/images/post8.png')}/>
+                        {
+                            posts.map(post => (
+                                <PostItem key={post.id} likeCount={ `${post.likeCount} Likes`}   commentCount={ `${post.commentCount} Comments`} shareCount={ `${post.shareCount} Shares`}
+                                          author={post.author} time={post.time} avatar={post.avatar}
+                                          image={post.image} text={post.text} isImage={post.isImage} isText={post.isText} isVideo={post.isVideo}/>
+                            ))
+                        }
+
 
                     </View>
                 </ScrollView>
