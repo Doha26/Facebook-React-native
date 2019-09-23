@@ -1,5 +1,9 @@
 const avatars: Array<any> = [
     {
+        id: 0,
+        src: require('../assets/images/ic1.png')
+    },
+    {
         id: 1,
         src: require('../assets/images/ic1.png')
     },

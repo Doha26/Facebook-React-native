@@ -3,6 +3,13 @@ import {NavigationScreenProp, SafeAreaView} from 'react-navigation';
 import {View, StyleSheet, StatusBar} from 'react-native';
 import {colors} from "../../utils";
 import SvgUri from "react-native-svg-uri";
+import { YellowBox } from 'react-native';
+
+YellowBox.ignoreWarnings([
+    'Warning: componentWillMount is deprecated',
+    'Warning: componentWillUpdate is deprecated',
+    'Warning: componentWillReceiveProps is deprecated',
+]);
 
 export interface NavigationProps {
     navigation: NavigationScreenProp<any, any>

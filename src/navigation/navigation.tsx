@@ -6,16 +6,15 @@ import Profile from "../screens/Profile";
 
 
 const appStack = createStackNavigator({
-    
-    Home: {
-        screen: Home,
+    Splash: {
+        screen: Intro,
         navigationOptions: () => ({
             header: null,
             headerBackTitle: null
         })
     },
-    Splash: {
-        screen: Intro,
+    Home: {
+        screen: Home,
         navigationOptions: () => ({
             header: null,
             headerBackTitle: null
@@ -30,18 +29,18 @@ const appStack = createStackNavigator({
     },
 
 },{
-    initialRouteName:'Splash' 
+    initialRouteName:'Splash'
 });
 
 
 // @ts-ignore
 export default createAppContainer(createSwitchNavigator(
     {
-        App: appStack,
         Intro: Intro,
+        App: appStack,
         Profile: Profile,
     },
     {
-        initialRouteName: 'App'
+        initialRouteName: 'Intro'
     }
 ));
