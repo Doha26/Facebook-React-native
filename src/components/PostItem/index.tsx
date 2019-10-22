@@ -37,7 +37,6 @@ class PostItem extends React.Component<IPostItemProps> {
         // @ts-ignore
         const {avatar, author, time, image, likeCount, commentCount, shareCount, text,isImage, isVideo, isText} = this.props;
 
-
         return (
 
             <View style={styles.container}>

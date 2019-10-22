@@ -12,7 +12,7 @@ target 'facebookUI' do
   pod 'React-RCTImage', :path => '../node_modules/react-native/Libraries/Image'
   pod 'React-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
   pod 'React-RCTNetwork', :path => '../node_modules/react-native/Libraries/Network'
-  pod 'React-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
+  pod 'React-RCTSettings', :path => '../nde_modules/react-native/Libraries/Settings'
   pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text'
   pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
   pod 'React-RCTWebSocket', :path => '../node_modules/react-native/Libraries/WebSocket'

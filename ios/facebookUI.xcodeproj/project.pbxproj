@@ -5,34 +5,31 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* facebookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* facebookUITests.m */; };
+		0647F14D303D41BC872F8A69 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E62598CC07349EA91FBD32E /* Foundation.ttf */; };
+		0701211489234CF393F5C1C1 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F309A5449DEF4719ACB600E7 /* Feather.ttf */; };
+		0FA6AF93B02F4C888FB2E658 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6F48BEC142A4F11934C91AF /* AntDesign.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		13ED3B7018F38D56F0AE024D /* libPods-facebookUI-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A22BE70F42B42CDC87EDE67 /* libPods-facebookUI-tvOSTests.a */; };
 		17D63F3E51E5F12DF74B5149 /* libPods-facebookUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD15291941209CDDE1DA4B4A /* libPods-facebookUI.a */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* facebookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* facebookUITests.m */; };
-		CCD2E047DC2053198B5AA300 /* libPods-facebookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0BAB34101E8B301FC125B5 /* libPods-facebookUITests.a */; };
-		FD4177D51D588C481C93CBF0 /* libPods-facebookUI-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 111844B1C5A6B05CE12B3CC6 /* libPods-facebookUI-tvOS.a */; };
-		0FA6AF93B02F4C888FB2E658 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6F48BEC142A4F11934C91AF /* AntDesign.ttf */; };
-		538E6050530142A783ECC573 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC5EF2E623AD4427A55D2404 /* Entypo.ttf */; };
-		1E75C65E42E94D219288E136 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7676196F00EF4BC386621F3C /* EvilIcons.ttf */; };
-		0701211489234CF393F5C1C1 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F309A5449DEF4719ACB600E7 /* Feather.ttf */; };
-		BA723C45D46D4297B6D391EA /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 631575C7D76348059534FB65 /* FontAwesome.ttf */; };
-		6E5696367E634B7A8DD6415A /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 744CF37FFD4746E1B3CD0F5D /* FontAwesome5_Brands.ttf */; };
 		18C76406105C4CB09941704B /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 120BC027F482426FA3135D36 /* FontAwesome5_Regular.ttf */; };
-		8D54685C75074A289DF56571 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE686E738956476799FD422E /* FontAwesome5_Solid.ttf */; };
-		C116648F8FEC4538BFCBC599 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F29BE37F46ED868EBA2C /* Fontisto.ttf */; };
-		0647F14D303D41BC872F8A69 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E62598CC07349EA91FBD32E /* Foundation.ttf */; };
-		86A2066189424DD3BB6A7B70 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA5F079F24544DF0BB49E5E5 /* Ionicons.ttf */; };
-		820802F19E95421B800B0721 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85CA9114B7EA4C489D3FFF6B /* MaterialCommunityIcons.ttf */; };
+		1E75C65E42E94D219288E136 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7676196F00EF4BC386621F3C /* EvilIcons.ttf */; };
 		2107471FA7AE4A2EA84C89F6 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C0C10AE1B44153BF79EDCF /* MaterialIcons.ttf */; };
+		2DCD954D1E0B4F2C00145EB5 /* facebookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* facebookUITests.m */; };
+		538E6050530142A783ECC573 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC5EF2E623AD4427A55D2404 /* Entypo.ttf */; };
+		6E5696367E634B7A8DD6415A /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 744CF37FFD4746E1B3CD0F5D /* FontAwesome5_Brands.ttf */; };
+		820802F19E95421B800B0721 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85CA9114B7EA4C489D3FFF6B /* MaterialCommunityIcons.ttf */; };
 		862B9FA425FF4C6987776C8B /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A98D4A3A7F394238A9B67DEF /* Octicons.ttf */; };
+		86A2066189424DD3BB6A7B70 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA5F079F24544DF0BB49E5E5 /* Ionicons.ttf */; };
+		8D54685C75074A289DF56571 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE686E738956476799FD422E /* FontAwesome5_Solid.ttf */; };
+		BA723C45D46D4297B6D391EA /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 631575C7D76348059534FB65 /* FontAwesome.ttf */; };
+		C116648F8FEC4538BFCBC599 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F29BE37F46ED868EBA2C /* Fontisto.ttf */; };
+		CCD2E047DC2053198B5AA300 /* libPods-facebookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0BAB34101E8B301FC125B5 /* libPods-facebookUITests.a */; };
 		D39C04D6DB2B4DFE80B4A765 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE40F262DDC148B8A6DEFBC8 /* SimpleLineIcons.ttf */; };
 		DA702A62A2734B488F7CFA60 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9D2B401DE984EF7B571C6DB /* Zocial.ttf */; };
 /* End PBXBuildFile section */
@@ -45,13 +42,6 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = facebookUI;
 		};
-		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "facebookUI-tvOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +50,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* facebookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebookUITests.m; sourceTree = "<group>"; };
 		111844B1C5A6B05CE12B3CC6 /* libPods-facebookUI-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facebookUI-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120BC027F482426FA3135D36 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* facebookUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = facebookUI/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = facebookUI/AppDelegate.m; sourceTree = "<group>"; };
@@ -67,37 +58,35 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = facebookUI/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = facebookUI/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = facebookUI/main.m; sourceTree = "<group>"; };
+		1E62598CC07349EA91FBD32E /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		21CDDFD4818DE1848897A9E3 /* Pods-facebookUI-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookUI-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-facebookUI-tvOSTests/Pods-facebookUI-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		2993971100BE14AA1ABC7B7C /* Pods-facebookUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebookUI/Pods-facebookUI.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* facebookUI-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebookUI-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* facebookUI-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "facebookUI-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D65A7123A473D8FBA980D3C /* Pods-facebookUI-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookUI-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebookUI-tvOS/Pods-facebookUI-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3E83A0A43C34EF53C65785C0 /* Pods-facebookUI-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookUI-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-facebookUI-tvOS/Pods-facebookUI-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		4E0BAB34101E8B301FC125B5 /* libPods-facebookUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facebookUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631575C7D76348059534FB65 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		744CF37FFD4746E1B3CD0F5D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		7676196F00EF4BC386621F3C /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		800DA168AA1AF114898F68CF /* Pods-facebookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebookUITests/Pods-facebookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83C0C10AE1B44153BF79EDCF /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		85CA9114B7EA4C489D3FFF6B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		8A22BE70F42B42CDC87EDE67 /* libPods-facebookUI-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facebookUI-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C64827817D424D40347D68F /* Pods-facebookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-facebookUITests/Pods-facebookUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A6EA4DA35D680AEEB7E0E899 /* Pods-facebookUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-facebookUI/Pods-facebookUI.release.xcconfig"; sourceTree = "<group>"; };
+		A6F48BEC142A4F11934C91AF /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		A98D4A3A7F394238A9B67DEF /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		AE40F262DDC148B8A6DEFBC8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		BE686E738956476799FD422E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		C9D2B401DE984EF7B571C6DB /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		CD15291941209CDDE1DA4B4A /* libPods-facebookUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facebookUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B9F29BE37F46ED868EBA2C /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		DA5F079F24544DF0BB49E5E5 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		E3FB88385125455682C0F3ED /* Pods-facebookUI-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookUI-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebookUI-tvOSTests/Pods-facebookUI-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5EF2E623AD4427A55D2404 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		A6F48BEC142A4F11934C91AF /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EC5EF2E623AD4427A55D2404 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7676196F00EF4BC386621F3C /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F309A5449DEF4719ACB600E7 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		631575C7D76348059534FB65 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		744CF37FFD4746E1B3CD0F5D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		120BC027F482426FA3135D36 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BE686E738956476799FD422E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D6B9F29BE37F46ED868EBA2C /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1E62598CC07349EA91FBD32E /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DA5F079F24544DF0BB49E5E5 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		85CA9114B7EA4C489D3FFF6B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		83C0C10AE1B44153BF79EDCF /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A98D4A3A7F394238A9B67DEF /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AE40F262DDC148B8A6DEFBC8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C9D2B401DE984EF7B571C6DB /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F309A5449DEF4719ACB600E7 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +103,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				17D63F3E51E5F12DF74B5149 /* libPods-facebookUI.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD4177D51D588C481C93CBF0 /* libPods-facebookUI-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +161,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		80AF802DFAB34C26A41E385D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6F48BEC142A4F11934C91AF /* AntDesign.ttf */,
+				EC5EF2E623AD4427A55D2404 /* Entypo.ttf */,
+				7676196F00EF4BC386621F3C /* EvilIcons.ttf */,
+				F309A5449DEF4719ACB600E7 /* Feather.ttf */,
+				631575C7D76348059534FB65 /* FontAwesome.ttf */,
+				744CF37FFD4746E1B3CD0F5D /* FontAwesome5_Brands.ttf */,
+				120BC027F482426FA3135D36 /* FontAwesome5_Regular.ttf */,
+				BE686E738956476799FD422E /* FontAwesome5_Solid.ttf */,
+				D6B9F29BE37F46ED868EBA2C /* Fontisto.ttf */,
+				1E62598CC07349EA91FBD32E /* Foundation.ttf */,
+				DA5F079F24544DF0BB49E5E5 /* Ionicons.ttf */,
+				85CA9114B7EA4C489D3FFF6B /* MaterialCommunityIcons.ttf */,
+				83C0C10AE1B44153BF79EDCF /* MaterialIcons.ttf */,
+				A98D4A3A7F394238A9B67DEF /* Octicons.ttf */,
+				AE40F262DDC148B8A6DEFBC8 /* SimpleLineIcons.ttf */,
+				C9D2B401DE984EF7B571C6DB /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +212,6 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* facebookUI.app */,
 				00E356EE1AD99517003FC87E /* facebookUITests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* facebookUI-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* facebookUI-tvOSTests.xctest */,
 			);
 			name = Products;
@@ -228,30 +231,6 @@
 			);
 			name = Pods;
 			sourceTree = "<group>";
-		};
-		80AF802DFAB34C26A41E385D /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				A6F48BEC142A4F11934C91AF /* AntDesign.ttf */,
-				EC5EF2E623AD4427A55D2404 /* Entypo.ttf */,
-				7676196F00EF4BC386621F3C /* EvilIcons.ttf */,
-				F309A5449DEF4719ACB600E7 /* Feather.ttf */,
-				631575C7D76348059534FB65 /* FontAwesome.ttf */,
-				744CF37FFD4746E1B3CD0F5D /* FontAwesome5_Brands.ttf */,
-				120BC027F482426FA3135D36 /* FontAwesome5_Regular.ttf */,
-				BE686E738956476799FD422E /* FontAwesome5_Solid.ttf */,
-				D6B9F29BE37F46ED868EBA2C /* Fontisto.ttf */,
-				1E62598CC07349EA91FBD32E /* Foundation.ttf */,
-				DA5F079F24544DF0BB49E5E5 /* Ionicons.ttf */,
-				85CA9114B7EA4C489D3FFF6B /* MaterialCommunityIcons.ttf */,
-				83C0C10AE1B44153BF79EDCF /* MaterialIcons.ttf */,
-				A98D4A3A7F394238A9B67DEF /* Octicons.ttf */,
-				AE40F262DDC148B8A6DEFBC8 /* SimpleLineIcons.ttf */,
-				C9D2B401DE984EF7B571C6DB /* Zocial.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -295,26 +274,6 @@
 			productReference = 13B07F961A680F5B00A75B9A /* facebookUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* facebookUI-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "facebookUI-tvOS" */;
-			buildPhases = (
-				17E2EA2336DF90E6C04836B3 /* [CP] Check Pods Manifest.lock */,
-				FD10A7F122414F3F0027D42C /* Start Packager */,
-				2D02E4771E0B4A5D006451C7 /* Sources */,
-				2D02E4781E0B4A5D006451C7 /* Frameworks */,
-				2D02E4791E0B4A5D006451C7 /* Resources */,
-				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "facebookUI-tvOS";
-			productName = "facebookUI-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* facebookUI-tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 		2D02E48F1E0B4A5D006451C7 /* facebookUI-tvOSTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "facebookUI-tvOSTests" */;
@@ -327,7 +286,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
 			name = "facebookUI-tvOSTests";
 			productName = "facebookUI-tvOSTests";
@@ -345,14 +303,15 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = A7LYK729KM;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
-					2D02E47A1E0B4A5D006451C7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = A7LYK729KM;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A7LYK729KM;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
@@ -363,6 +322,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -373,7 +333,6 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* facebookUI */,
 				00E356ED1AD99517003FC87E /* facebookUITests */,
-				2D02E47A1E0B4A5D006451C7 /* facebookUI-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* facebookUI-tvOSTests */,
 			);
 		};
@@ -412,14 +371,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D02E4791E0B4A5D006451C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,42 +389,6 @@
 			inputPaths = (
 			);
 			name = "Bundle React Native code and images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		17E2EA2336DF90E6C04836B3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-facebookUI-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,25 +480,6 @@
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		FD10A7F122414F3F0027D42C /* Start Packager */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Start Packager";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -604,15 +500,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D02E4771E0B4A5D006451C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,11 +515,6 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* facebookUI */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* facebookUI-tvOS */;
-			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -654,6 +536,7 @@
 			baseConfigurationReference = 800DA168AA1AF114898F68CF /* Pods-facebookUITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A7LYK729KM;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -678,6 +561,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = A7LYK729KM;
 				INFOPLIST_FILE = facebookUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -699,6 +583,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = A7LYK729KM;
 				INFOPLIST_FILE = facebookUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -718,6 +603,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7LYK729KM;
 				INFOPLIST_FILE = facebookUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -731,62 +617,6 @@
 			};
 			name = Release;
 		};
-		2D02E4971E0B4A5E006451C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D65A7123A473D8FBA980D3C /* Pods-facebookUI-tvOS.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "facebookUI-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.facebookUI-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Debug;
-		};
-		2D02E4981E0B4A5E006451C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E83A0A43C34EF53C65785C0 /* Pods-facebookUI-tvOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "facebookUI-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.facebookUI-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Release;
-		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3FB88385125455682C0F3ED /* Pods-facebookUI-tvOSTests.debug.xcconfig */;
@@ -797,6 +627,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A7LYK729KM;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "facebookUI-tvOSTests/Info.plist";
@@ -825,6 +656,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A7LYK729KM;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "facebookUI-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -957,15 +789,6 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "facebookUI-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D02E4971E0B4A5E006451C7 /* Debug */,
-				2D02E4981E0B4A5E006451C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

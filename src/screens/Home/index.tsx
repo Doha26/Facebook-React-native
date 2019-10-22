@@ -131,6 +131,9 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         padding: 16
     },
+    marginContainer: {
+        marginTop: 16
+    },
     playAllText: {
         color: colors.filterBlue,
         marginLeft: 5,
@@ -146,9 +149,6 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "flex-end",
         justifyContent: "flex-end"
-    },
-    marginContainer: {
-        marginTop: 16
     },
     HeaderStories: {
         flexDirection: "row",

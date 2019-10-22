@@ -25,7 +25,7 @@ Design found here => https://www.uplabs.com/posts/facebook-mobile-app-uplabs-des
  
  On the command prompt run the following commands
  ```sh
- $ git clone https://github.com/PavelFoujeu/FacebookUIDesign-React-native.git
+ $ git clone https://github.com/Doha26/Facebook-React-native.git
  
  $ cd facebookUI
  
@@ -38,3 +38,7 @@ Design found here => https://www.uplabs.com/posts/facebook-mobile-app-uplabs-des
 ## Author
 
 *	[Pavel Foujeu](mailto:foujeupavel@gmail.com)
+
+## Done with React-native
+
+*	[Instagram clone](https://github.com/Doha26/InstagramClone)
