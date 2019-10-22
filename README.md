@@ -1,4 +1,4 @@
-# FacebookUIDesign-React-native
+# Facebook-React-native
 Facebook UI Design made with React-native.
 Design found here => https://www.uplabs.com/posts/facebook-mobile-app-uplabs-design-challenge
 
