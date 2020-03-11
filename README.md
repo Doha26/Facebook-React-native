@@ -31,6 +31,8 @@ Design found here => https://www.uplabs.com/posts/facebook-mobile-app-uplabs-des
  
  $ npm install
  
+ $ cd ios && pod install && cd..
+  
  $ react-native run-ios
  
  ```
